@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 150%;
+}
+.header {
+	background-color: #635854;
+	border-bottom: 4px solid #3596f5;
+}
+.header__container {
+	max-width: 1300px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.header__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__logo img {
+	max-width: 100%;
+}
+.header__logo {
+	flex: 0 0 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.header__item {
+	text-align: center;
+	margin: 0 32px;
+	padding: 9px 16px;
+}
+.header__item a {
+	color: white;
+	text-decoration: none;
+}
+.header__item:hover {
+	background-color: #3596f5;
+}
+.header__contacts {
+	flex: 0 0 140px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.header__phone {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.header__phone:hover {
+	color: #3596f5;
+}
